@@ -144,7 +144,7 @@
 /* ------------------------------------------------------------------------------------------------------------ */
 
 
-/* Navigation
+/* Navigation opacity:1;
 --------------------------------------------------------------------------------------------------------------- */
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
@@ -168,7 +168,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav .drop::after{top:35px; left:5px;}
 #mainav li li .drop::after{top:15px; left:5px;}
 #mainav ul ul{visibility:hidden; opacity:0;}
-#mainav ul li:hover > ul{visibility:visible; opacity:1;}
+#mainav ul li:hover > ul{visibility:visible; background-color: yellow;}
 
 #mainav form{display:none; margin:0; padding:0;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
@@ -256,7 +256,7 @@ a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey ba
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
-.overlay{color:#EAEAEA; background-color:inherit; font-weight: bold; font-heading: h3;}
+.overlay{color:#dbd5d5; background-color:inherit; font-weight: bold; font-heading: h3;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FFAA31; border-color:#FFAA31;}
@@ -303,7 +303,7 @@ a .icon:hover, article:hover a .icon{color:#FFFFFF; background-color:#FFAA31;}
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FFAA31; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FFFFFF; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#FFAA31;}
 #mainav form select{color:#FFFFFF; background-color:#000000; border-color:rgba(255,255,255,.2);/* #FFFFFF */}
