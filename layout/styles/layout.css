@@ -168,7 +168,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav .drop::after{top:35px; left:5px;}
 #mainav li li .drop::after{top:15px; left:5px;}
 #mainav ul ul{visibility:hidden; opacity:0;}
-#mainav ul li:hover > ul{visibility:visible; background-color: yellow;}
+#mainav ul li:hover > ul{visibility:visible; opacity:1;}
 
 #mainav form{display:none; margin:0; padding:0;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
